@@ -1,0 +1,45 @@
+{
+  "name": "portfolio-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "contentful": "^9.2.4",
+    "dotenv": "^16.0.3",
+    "next": "12.3.0",
+    "nodemailer": "^6.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.16",
+    "@types/react": "18.0.19",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "typescript": "4.8.3"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "typescript"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ]
+}
