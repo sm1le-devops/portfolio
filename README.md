@@ -13,9 +13,7 @@ My goals were:
 
 ### The challenge
 
-### Screenshot so far!
 
-![Preview image](/public/images/PreviewResume.png)
 
 ### Built with
 
